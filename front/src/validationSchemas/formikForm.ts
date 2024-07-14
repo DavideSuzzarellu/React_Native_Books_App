@@ -6,17 +6,16 @@ export const formikFormSchema = yup.object().shape({
         .required("Title is required"),
     author: yup
         .string()
-        .required("Title is required"),
+        .required("Author is required"),
     year: yup
         .string()
-        .required("Title is required"),
+        .required("Year is required"),
     type: yup
         .string()
-        .required("Title is required"),
+        .required("Type is required"),
     description: yup
         .string()
-        .required("Title is required"),
+        .required("Description is required"),
     img: yup
         .string()
-        .required("Title is required")
 })
